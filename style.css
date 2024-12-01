@@ -1,0 +1,70 @@
+.grid-1{
+    background-color:teal;
+    /* width: 200px; */
+    height: 40px;
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+}
+
+img[alt="sujit"]{
+    height: 267px;
+    width: 240px;
+}
+
+img[alt="long-india"]{
+    height: 302px;
+    width: 498px;
+}
+img[alt="india"]{
+    height: 180px;
+    width: 267px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,239px);
+    grid-gap: 20px;
+}
+
+#five{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.merg6{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.merg4{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    height: 302px;
+}
+
+.merg3,.merg5,.merg6{
+    /* height: 100px;
+    width: 150px; */
+    height: 180px;
+    width: 267px;
+}
+
+.merg1,.merg2{
+    height: 267px;
+    width: 240px;
+}
+
+.merg5{
+    margin-top: 100px;
+    position: absolute;
+    top: 112px;
+    left: 528px;
+}
+
+.merg6{
+    position: absolute;
+    top: 417px;
+    left: 528px;
+}
+
+
+
